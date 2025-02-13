@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'my_list_view.dart';
+import 'my_sliver_list_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.blue,
       ),
-      home: const MyListView(),
+      home: const MySliverList(),
     );
   }
 }
