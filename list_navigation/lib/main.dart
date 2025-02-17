@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:list_navigation/navigator_demo.dart';
+
 import 'navigator_demo.dart';
 
 void main() {
